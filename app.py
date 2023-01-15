@@ -6,8 +6,8 @@ import pandas as pd
 def main() -> None:
     app = Dash(external_stylesheets=[CYBORG])
     
-    app.title = "eCommerce sales analysis dashboard"
-    app.layout = html.Div(children=[html.H2(children="eCommerce Business Transactions analysis dashboard"),html.Hr()])
+    app.title = "Transactions Dashboard"
+    app.layout = html.Div(children=[html.H2(children="Business Transactions Analysis"),html.Hr()])
     
     app.run()
 
